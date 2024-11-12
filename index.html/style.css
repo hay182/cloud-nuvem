@@ -49,3 +49,33 @@ body
     box-shadow: 90px 0 0 30px #fff;
 
 }
+
+.text{
+    position: absolute;
+    top: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 0 0 5px #fff,
+    0 0 15px #fff,
+    o o 30px #fff;
+    transform-origin: bottom;
+    animation: animate 2s linear forwards;
+}
+  @keyframes animat
+{
+
+ 0%
+ {
+    transform: translateY(0) scale(1); 
+ }
+ 70%
+ {
+    transform: translateY(298px) scale(1); 
+ }
+ 100%
+ {
+    transform: translateY(298px) scale(0); 
+ }
+}
